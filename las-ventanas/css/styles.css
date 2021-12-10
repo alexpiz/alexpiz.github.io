@@ -11305,3 +11305,48 @@ path.nav-link:hover, path.nav-link:focus, path.nav-link:active, path.nav-link:ta
     transform: translateX(-50%);
     bottom: 0px;
 }
+.realstate-home {
+  position: relative;
+}
+
+a.link-home {
+  width: 160px;
+  height: 70px;
+  background: transparent;
+  display: block;
+  position: absolute;
+  text-indent: -999999;
+}
+.link-realstate {
+  top: -90px;
+  left: 34px;
+}
+.link-rentals {
+  left: 54px;
+  top: -90px;
+}
+
+a.nav-a-link {
+  position: absolute;
+  background: transparent;
+  display: block;
+  text-indent: -999999;
+}
+a.nav-a-link.nav-a-link-home {
+  width: 17%;
+  height: 70px;
+  left: 7%;
+  color: transparent;
+}
+
+a.nav-a-link.nav-a-link-realstate {
+  left: 52%;
+  width: 8%;
+  color: transparent;
+}
+
+a.nav-a-link.nav-a-link-rentals {
+  left: 72%;
+  width: 13%;
+  color: transparent;
+}
