@@ -11330,23 +11330,49 @@ a.nav-a-link {
   position: absolute;
   background: transparent;
   display: block;
-  text-indent: -999999;
+  text-indent: -999999px;
 }
 a.nav-a-link.nav-a-link-home {
   width: 17%;
   height: 70px;
   left: 7%;
-  color: transparent;
 }
 
 a.nav-a-link.nav-a-link-realstate {
   left: 52%;
   width: 8%;
-  color: transparent;
 }
 
 a.nav-a-link.nav-a-link-rentals {
   left: 72%;
   width: 13%;
-  color: transparent;
+}
+
+footer{
+  position: relative;
+}
+
+a.nav-footer-link{ 
+  position: absolute;
+  background: transparent;
+  text-indent: -999999px;
+}
+
+.nav-footer-link-home {
+  width: 100px;
+  height: 110px;
+  bottom: 35%;
+  left: 5%;
+}
+
+a.nav-footer-link.nav-footer-link-realstate {
+  width: 14%;
+  right: 31%;
+  bottom: 42%;
+}
+
+a.nav-footer-link.nav-footer-link-rentals {
+  width: 16%;
+  right: 29%;
+  bottom: 29%;
 }
