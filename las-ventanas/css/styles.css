@@ -11376,3 +11376,20 @@ a.nav-footer-link.nav-footer-link-rentals {
   right: 29%;
   bottom: 29%;
 }
+
+.menu-toggle {
+  position: absolute;
+    top: 3%;
+    right: 7%;
+    width: 50px;
+    height: 40px;
+    text-indent: -999999px;
+    background: transparent;
+    border: transparent;
+}
+
+.menu-toggle:hover, .menu-toggle:visited, .menu-toggle:focus, .menu-toggle:active, .menu-toggle:focus-visible {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
