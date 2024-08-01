@@ -10933,7 +10933,7 @@ section {
   color: #2937f0;
 }
 #mainNav .navbar-toggler {
-  font-size: 0.875rem;
+  font-size: 48px;
   padding: 0.75rem 1rem;
   color: #212529;
 }
@@ -11319,5 +11319,8 @@ line-height: 46px; /* 127.778% */
 @media (max-width: 500px) {
   .hero-banner {
     background-size: cover;
+}
+.display-1 {
+    font-size: 38px;
 }
 }
