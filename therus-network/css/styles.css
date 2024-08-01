@@ -11316,11 +11316,67 @@ line-height: 46px; /* 127.778% */
   margin-top: 250px;
 }
 
+.carousel .card {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  background: radial-gradient(135.35% 94.35% at 50% 3.71%, rgba(55, 55, 79, 0.20) 0%, rgba(20, 20, 29, 0.60) 100%);
+  color: #fff;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.text-muted {
+  color: #D0CFCF;
+}
+
+.float {
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+.icons-float {
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+
+/*animation*/
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+
 @media (max-width: 500px) {
   .hero-banner {
-    background-size: cover;
+    background-size: auto;
 }
 .display-1 {
     font-size: 38px;
+}
+.card-services {
+    width: 320px;
+    max-width: 320px;
+}
+.screen-guy {
+  background-size: 620px;
+  background-position: left 340px;
+  min-height: 640px;
+}
+.therus-title {
+  font-size: 30px;
+}
+.services {
+    padding-bottom: 0px;
 }
 }

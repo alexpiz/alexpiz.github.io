@@ -21,20 +21,20 @@
             <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
                 <div class="container px-5">
                     <a class="navbar-brand fw-bold" href="#page-top"><img src="./assets/img/tnw-logo.png"></a>
-                    <button class="text-white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <button disabled class="text-white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="bi-list"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                            <li class="nav-item"><a class="text-white nav-link me-lg-3" href="#features">Home</a></li>
-                            <li class="nav-item"><a class="text-white nav-link me-lg-3" href="#download">Compañía</a></li>
-                            <li class="nav-item"><a class="text-white nav-link me-lg-3" href="#features">Productos</a></li>
-                            <li class="nav-item"><a class="text-white nav-link me-lg-3" href="#download">Oportunidades</a></li>
-                            <li class="nav-item"><a class="text-white nav-link me-lg-3" href="#features">Eventos</a></li>
-                            <li class="nav-item"><a class="text-white nav-link me-lg-3" href="#download">Blog</a></li>
-                            <li class="nav-item"><a class="text-white nav-link me-lg-3" href="#download">Contacto</a></li>
+                            <li class="nav-item"><a disabled class="text-white nav-link me-lg-3" >Home</a></li>
+                            <li class="nav-item"><a disabled class="text-white nav-link me-lg-3" >Compañía</a></li>
+                            <li class="nav-item"><a disabled class="text-white nav-link me-lg-3" >Productos</a></li>
+                            <li class="nav-item"><a disabled class="text-white nav-link me-lg-3" >Oportunidades</a></li>
+                            <li class="nav-item"><a disabled class="text-white nav-link me-lg-3" >Eventos</a></li>
+                            <li class="nav-item"><a disabled class="text-white nav-link me-lg-3" >Blog</a></li>
+                            <li class="nav-item"><a disabled class="text-white nav-link me-lg-3" >Contacto</a></li>
                         </ul>
-                        <button class="btn btn-primary  py-3 px-4" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <button disabled class="btn btn-primary  py-3 px-4" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                             <span class="d-flex align-items-center">
                                 <span class="small">Login</span>
                             </span>
@@ -52,12 +52,12 @@
                                 <p class="lead subtitle-hero text-white">Innovación, sostenibilidad y oportunidades globales</p>
                                 <h1 class="display-1 lh-1 mb-3 text-white">Un nuevo enfoque en network marketing.</h1>
                                 <p class="lead fw-normal  text-white mb-5"><b>Therus Network</b>, parte del holding empresarial <b>Levap Corp</b>, redefine el Network Marketing con una innovadora oferta de productos y servicios enfocados en el bienestar financiero. Con presencia en más de 25 países, estamos comprometidos con el crecimiento sostenible y el éxito compartido</p>
-                                <a class="btn btn-primary py-3 px-4 " href="https://startbootstrap.com/theme/new-age" target="_blank">Sea parte de la red</a>
+                                <button disabled class="btn btn-primary py-3 px-4 mx-auto text-center"> Sea parte de la red </button>
                             </div>
                         </div>
                         <div class="col-lg-5">
                             <!-- Masthead device mockup feature-->
-                            <figure><img class="img-fluid" src="./assets/img/hero-business-man.png"></figure>
+                            <figure style="position: relative;"><img class="img-fluid" src="./assets/img/hero-business-man.png"><img class="icons-float img-fluid float" src="./assets/img/hero-icons-float.png"></figure>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                             </div>
 
                             <div class="container ">
-                                <button class="btn btn-primary py-3 px-4 mx-auto text-center"> Ver más <span> <img src="./assets/img/icon/arrow-right.png"></svg></span>
+                                <button disabled class="btn btn-primary py-3 px-4 mx-auto text-center"> Ver más <span> <img src="./assets/img/icon/arrow-right.png"></svg></span></button>
                             </div>
                        
                     </div>
@@ -142,8 +142,8 @@
         <section id="features" class="mt-5 pt-5">
             <div class="container px-5 mx-5 pt-5 mx-auto">
                                 <div class="row">
-                                    <div class="col-md-5 text-end">
-                                        <img class="img-fluid pl-3" src="./assets/img/therus-logo.png">
+                                    <div class="col-md-5 text-md-end">
+                                        <img class="img-fluid pb-3" src="./assets/img/therus-logo.png">
                                     </div>
                                     <div class="col-md-7 mt-2 px-5">
                                          <h6 class="therus-sub text-lg-start text-white">Producto</h6>
@@ -171,7 +171,7 @@
                                 <div class="button-screen row justify-content-center">
                                     
                                     <div class="col-md-6 align-self-center text-center">
-                                        <button class="btn btn-primary py-3 px-4 mx-auto text-center"> Ver más sobre Therus Capital <span> <img src="./assets/img/icon/arrow-right.png"></svg></span>
+                                        <button disabled class="btn btn-primary py-3 px-4 mx-auto text-center"> Ver más sobre Therus Capital <span> <img src="./assets/img/icon/arrow-right.png"></svg></span></button>
 
                                     </div>
 
@@ -181,6 +181,68 @@
                                         
             </div>
         </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <div class="card mb-3">
+                              <div class="row no-gutters">
+                                <div class="col-md-4">
+                                  <img src="./assets/img/carousel1.png" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title">Descubre cómo Giovanni transformó su vida financiera y profesional utilizando los servicios educativos de Therus Network</h5>
+                                    <p class="card-text mt-3 text-muted">Therus Network me ha dado las herramientas y el conocimiento que necesitaba para transformar mi vida. Ahora me siento más seguro y preparado para el futuro.</p>
+                                    <button disabled class="btn btn-link py-3 px-4 mx-auto text-center"> Ver historia completa <span> <img src="./assets/img/icon/arrow-right.png"></svg></span></button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <div class="card mb-3">
+                              <div class="row no-gutters">
+                                <div class="col-md-4">
+                                  <img src="./assets/img/carousel1.png" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title">Descubre cómo Giovanni transformó su vida financiera y profesional utilizando los servicios educativos de Therus Network</h5>
+                                    <p class="card-text mt-3 text-muted">Therus Network me ha dado las herramientas y el conocimiento que necesitaba para transformar mi vida. Ahora me siento más seguro y preparado para el futuro.</p>
+                                    <button disabled class="btn btn-link py-3 px-4 mx-auto text-center"> Ver historia completa <span> <img src="./assets/img/icon/arrow-right.png"></svg></span></button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                      </button>
+                    </div>
+                </div>
+                <div class="mt-5 row justify-content-center">
+                                    
+                    <div class="col-md-6 align-self-center text-center">
+                        <button disabled class="btn btn-primary py-3 px-4 mx-auto text-center"> Ver más historias de éxito <span> <img src="./assets/img/icon/arrow-right.png"></svg></span></button>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        </section>
+        
 
 
         <!-- Footer-->
@@ -202,7 +264,7 @@
                 <div class="modal-content">
                     <div class="modal-header bg-gradient-primary-to-secondary p-4">
                         <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
-                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button disabled class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body border-0 p-4">
                         <!-- * * * * * * * * * * * * * * *-->
@@ -256,7 +318,7 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                            <div class="d-grid"><button disabled class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
                     </div>
                 </div>
