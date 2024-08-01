@@ -11312,6 +11312,14 @@ line-height: 46px; /* 127.778% */
     min-height: 640px;
 }
 
+.waves {
+  background: url('./../assets/img/waves.png');
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+
 .button-screen {
   margin-top: 250px;
 }
@@ -11341,7 +11349,102 @@ line-height: 46px; /* 127.778% */
   top:0;
   right: 0;
 }
+/*Countdown*/
 
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 26.196px;
+    border: 1.233px solid rgba(255, 255, 255, 0.40);
+    background: radial-gradient(135.35% 94.35% at 50% 3.71%, rgba(55, 55, 79, 0.20) 0%, rgba(20, 20, 29, 0.60) 100%);
+    box-shadow: 0px -8px 74.002px 0px rgba(26, 70, 224, 0.32);
+    display: inline-flex;
+    padding: 52.392px;
+    align-items: flex-start;
+    gap: 52.392px;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+
+.countdown-circles {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+}
+
+.countdown-sub {
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 24.013px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.countdown-title {
+  color: #fff;
+text-align: center;
+font-family: "Lato";
+font-size: 69.856px;
+font-style: normal;
+font-weight: 400;
+line-height: 69.856px; /* 100% */
+letter-spacing: 0.699px;
+}
+
+.control-icon {
+  border: solid 1px;
+    border-radius: 60px;
+    width: 64px;
+    height: 64px;
+    position: relative;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: auto;
+}
+
+.controles {
+    position: relative;
+    width: 150px;
+    height: 90px;
+}
 
 /*animation*/
 @keyframes float {
