@@ -8157,7 +8157,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #D0CFCF !important;
 }
 
 .text-black-50 {
@@ -10925,6 +10925,7 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  z-index: 80000;
 }
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11233,7 +11234,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 body {
-  background: #131526;
+  background: #0F0F16;
 }
 
 .hero-banner {
@@ -11248,7 +11249,7 @@ body {
 }
 
 .navbar-scrolled {
-  background: #131526;
+  background: #0F0F16;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -11313,6 +11314,7 @@ line-height: 22px; /* 137.5% */
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
+  margin-top: 200px !important;
 }
 
 .subtitle-card {
@@ -11351,9 +11353,9 @@ line-height: 46px; /* 127.778% */
 .women-therus {
   background: url('./../assets/img/women-therus-banner.png');
     background-size: cover;
-    background-position: left top;
+    background-position: left 300px;
     background-repeat: no-repeat;
-    min-height: 640px;
+    min-height: 840px;
 }
 
 .waves {
@@ -11362,6 +11364,18 @@ line-height: 46px; /* 127.778% */
   background-position: top right;
   background-repeat: no-repeat;
       padding-bottom: 0;
+}
+
+.wave-2 {
+  background: url('./../assets/img/waves-2.png');
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+      padding-bottom: 0;
+}
+
+.screen-guy .button-screen {
+  margin-top: 240px
 }
 
 
@@ -11390,10 +11404,39 @@ line-height: 46px; /* 127.778% */
 }
 
 .icons-float {
-  position: absolute;
-  top:0;
-  right: 0;
+position: absolute;
+    top: 119px;
+    right: 70px;
+    width: 600px;
 }
+
+.btn-thirtiary {
+  border-radius: 8px;
+background: linear-gradient(92deg, #A752E9 -5.56%, #58188A 102.18%);
+box-shadow: 0px 4px 5.4px 0px rgba(15, 2, 20, 0.25) inset, 4px 4px 8.4px 0px rgba(174, 94, 237, 0.10);
+color: #fff;
+}
+
+.women-title {
+  color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+}
+
+.business-men {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
 /*Countdown*/
 
 .countdown {
@@ -11516,6 +11559,29 @@ letter-spacing: 0.699px;
       padding-top: 330px !important;
 }
 
+.btn-primary {
+  border-radius: 8px !important;
+background: linear-gradient(93deg, #2357A7, #163C76) !important;
+
+box-shadow: 0px 4px 5.4px 0px rgba(87, 140, 221, 0.25), 3px 4px 7.8px 0px rgba(111, 158, 231, 0.10) !important;
+}
+
+.eventos .card {
+  border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.40);
+background: radial-gradient(135.35% 94.35% at 50% 3.71%, rgba(55, 55, 79, 0.20) 0%, rgba(20, 20, 29, 0.60) 100%);
+}
+
+.eventos .card-title {
+  color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+}
+
 
 /*animation*/
 @keyframes float {
@@ -11536,7 +11602,7 @@ letter-spacing: 0.699px;
     background-size: auto;
 }
 .display-1 {
-    font-size: 38px;
+    font-size: 58px;
 }
 .card-services {
     width: 320px;
@@ -11548,15 +11614,16 @@ letter-spacing: 0.699px;
   min-height: 640px;
 }
 .women-therus{
-  background-size: 620px;
-  background-position: left 370px;
-  min-height: 640px;
+        background-size: 620px;
+        background-position: left 680px;
+        min-height: 900px;
 }
 .therus-title {
   font-size: 30px;
 }
 .services {
     padding-bottom: 0px;
+        margin-top: 300px !important;
 }
 .countdown {
    text-transform: uppercase;
@@ -11576,5 +11643,22 @@ letter-spacing: 0.699px;
 }
 .academy-image {
   display: none;
+}
+.icons-float {
+        position: absolute;
+        top: 95px;
+        right: 20px;
+        width: 320px;
+}
+.business-men {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: auto;
+}
+.therus-women-section {
+    padding-top: 100px !important;
 }
 }
