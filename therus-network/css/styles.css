@@ -11595,7 +11595,107 @@ line-height: 26px; /* 130% */
     transform: translatey(0px);
   }
 }
+@media (min-width: 1450px) and (max-width: 1600px){
+.icons-float {
+        position: absolute;
+        top: 159px;
+        right: 100px;
+        width: 580px;
+    }
+}
 
+@media (min-width: 1601px) and (max-width: 1920px){
+  .icons-float {
+    position: absolute;
+    top: 189px;
+    right: 230px;
+    width: 600px;
+}
+.services {
+    margin-top: 530px !important;
+}
+.screen-guy .button-screen {
+    margin-top: 370px;
+}
+}
+
+@media (min-width:1200px) and (max-width: 1366px){
+  .icons-float {
+    position: absolute;
+    top: 119px;
+    right: 90px;
+    width: 510px;
+}
+
+}
+@media (min-width:821px) and (max-width: 1200px){
+.business-men {
+    top: 460px;
+}
+.academy-image {
+  max-width:none !important;
+}
+.women-therus {
+    background: url(./../assets/img/women-therus-banner.png);
+    background-size: 100%;
+    background-position: left 410px;
+    background-repeat: no-repeat;
+}
+.icons-float {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    width: 420px;
+}
+}
+
+@media (min-width:501px) and (max-width: 820px) {
+  .countdown {
+
+    align-items: flex-start;
+    gap: 52.392px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.academy-image {
+  display: none;
+}
+
+.countdown-sub {
+    font-size: 18px;
+}
+
+.countdown-title {
+font-size: 56px;
+}
+
+.women-therus {
+    background-size: 900px;
+    background-position: -30px 500px;
+}
+
+.business-men {
+    top: 600px;
+}
+
+.icons-float {
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    width: 300px;
+}
+.screen-guy {
+    background-size: 100%;
+    background-position: left 110px;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.screen-guy .button-screen {
+    margin-top: 100px;
+}
+
+}
 
 @media (max-width: 500px) {
   .hero-banner {
@@ -11641,9 +11741,7 @@ line-height: 26px; /* 130% */
     align-content: center;
     flex-wrap: nowrap;
 }
-.academy-image {
-  display: none;
-}
+
 .icons-float {
         position: absolute;
         top: 95px;
@@ -11661,4 +11759,9 @@ line-height: 26px; /* 130% */
 .therus-women-section {
     padding-top: 100px !important;
 }
+.card-historias {
+    display: flex;
+    width: 328px;
+    height: auto;
+    }
 }
